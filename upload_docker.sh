@@ -4,12 +4,12 @@
 # Assumes that an image is built via `run_docker.sh`
 
 # Step 1:
-# Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=anshul1098/machine-learning-udacity
 
 # Step 2:  
-# Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login
 
 # Step 3:
-# Push image to a docker repository
+docker push $dockerpath
+

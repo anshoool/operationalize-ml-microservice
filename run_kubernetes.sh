@@ -3,16 +3,18 @@
 # This tags and uploads an image to Docker Hub
 
 # Step 1:
-# This is your Docker ID/path
-# dockerpath=<>
+dockerpath=anshul1098/machine-learning-udacity
 
 # Step 2
-# Run the Docker Hub container with kubernetes
+kubectl run --generator=run-pod/v1 --image=$dockerpath machine-learning-app --port=80 --labels='app=machine-learning-app'
 
 
 # Step 3:
-# List kubernetes pods
+kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
+kubectl port-forward --address 0.0.0.0 pod/machine-learning-app 80:80
 
+# Shows logs of containers
+kubectl logs -lapp=machine-learning-app --all-containers=true
