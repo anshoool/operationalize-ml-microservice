@@ -1,4 +1,4 @@
-CircleCI status [![anshul1098](https://circleci.com/gh/anshul1098/operationalize-ml-microservice.svg?style=svg)]
+CircleCI status - ![anshul1098](https://circleci.com/gh/anshul1098/operationalize-ml-microservice.svg?style=svg)(https://circleci.com/gh/anshul1098/operationalize-ml-microservice)
 
 ## Project Overview
 
