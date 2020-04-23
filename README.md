@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![anshul1098](https://circleci.com/gh/anshul1098/operationalize-ml-microservice.svg?style=svg)]
 
 ## Project Overview
 
