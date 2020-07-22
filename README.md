@@ -26,7 +26,7 @@ You are given a pre-trained, `sklearn` model that has been trained to predict ho
     2. Execute the script: `sh ./run_kubernetes.sh`
     3. Application will be expose on port 80
 
-### Testing Housing Princing Model
+### Testing Housing Pricing Model
 After application is running you can do calls to the housing pricing model with the next script:
 
 `sh ./make_prediction.sh`
